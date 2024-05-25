@@ -1,5 +1,6 @@
 import Accordion from "./components/Accordion/Accordion";
-import AccordionItem from "./components/Accordion/AccordionItem";
+
+// import AccordionItem from "./components/Accordion/AccordionItem";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <h1>우리와 협업하는 이유는 무엇일까요?</h1>
 
         <Accordion className="accordion">
-          <AccordionItem 
+          <Accordion.Item 
             id="experience"
             className="accordion-item"
             title="저희는 20년 이상의 경험을 가지고 있습니다"
@@ -20,9 +21,9 @@ function App() {
                 있습니다.
               </p>
             </article>
-          </AccordionItem>
+          </Accordion.Item >
 
-          <AccordionItem
+          <Accordion.Item 
             id="local-guides"
             className="accordion-item"
             title="저희는 현지 가이드와 협력하고 있습니다."
@@ -33,7 +34,7 @@ function App() {
                 대신, 우리는 현지 가이드와 함께하여 안전한 휴가를 보장합니다.
               </p>
             </article>
-          </AccordionItem>
+          </Accordion.Item >
         </Accordion>
       </section>
     </main>

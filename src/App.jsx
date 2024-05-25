@@ -8,7 +8,8 @@ function App() {
         <h1>우리와 협업하는 이유는 무엇일까요?</h1>
 
         <Accordion className="accordion">
-          <AccordionItem
+          <AccordionItem 
+            id="experience"
             className="accordion-item"
             title="저희는 20년 이상의 경험을 가지고 있습니다"
           >
@@ -22,6 +23,7 @@ function App() {
           </AccordionItem>
 
           <AccordionItem
+            id="local-guides"
             className="accordion-item"
             title="저희는 현지 가이드와 협력하고 있습니다."
           >
